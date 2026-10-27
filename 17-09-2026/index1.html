@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    
+    <form action="/user/abc" method="">
+      <label for="name">Name:</label>
+      <input id="name" />
+      <br />
+      <label for="name">Name:</label>
+      <input id="name" type="text" />
+      <br />
+      <label for="age">Age:</label>
+      <input id="age" type="date" />
+      <br />
+      <label for="email">Email:</label>
+      <input id="email" type="email" />
+      <br />
+      <label for="password">Password:</label>
+      <input id="password" type="password" />
+      <br />
+      <label for="count">Count:</label>
+      <input id="count" type="number" min="10" max="25" />
+      <br />
+      <label for="range">Skill:</label>
+      <input id="range" type="range" min="10" max="15" />
+      <br />
+      <label for="time">Time:</label>
+      <input id="time" type="time" />
+      <br />
+      <label for="resume">Resume:</label>
+      <input id="resume" type="file" />
+
+      <p>Gender:</p>
+      <label for="male">Male:</label>
+      <input id="male" type="radio" name="gender" />
+
+      <label for="female">Female:</label>
+      <input id="female" type="radio" name="gender" />
+
+      <label for="others">Others:</label>
+      <input id="others" type="radio" name="gender" />
+
+      <p>Skills:</p>
+      <label for="java">Java</label>
+      <input id="java" type="checkbox" name="skills" />
+
+      <label for="Python">Python</label>
+      <input id="Python" type="checkbox" name="skills" />
+
+      <label for="HTML">HTML</label>
+      <input id="HTML" type="checkbox" name="skills" />
+
+      <label for="JavaScript">JavaScript</label>
+      <input id="JavaScript" type="checkbox" name="skills" />
+
+      <br />
+      <br />
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+      <button type="button">Submit</button>
+
+      <br />
+      <br />
+      <input type="checkbox" id="agree" />
+      <label for="agree">I Under....</label>
+
+      <fieldset>
+        <legend>UserForm</legend>
+
+        <label for="name">Name:</label>
+        <input
+          id="name"
+          type="text"
+          placeholder="Enter your name.."
+          name="User_Name"
+          value=""
+          required
+        />
+
+        <br />
+        <br />
+        <label for="textarea">Feedback</label>
+        <textarea rows="10" cols="35" id="textarea"> </textarea>
+
+        <br />
+        <br />
+
+        <select>
+          <option>A</option>
+          <option>B</option>
+          <option>C</option>
+          <option>D</option>
+          <option>E</option>
+          <option>F</option>
+        </select>
+
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+
+        <br />
+        <br />
+        <details>
+          <summary>ABC</summary>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius iure
+            sit deserunt esse iusto sequi, in corrupti asperiores dolor, illum
+            neque quasi. Numquam, obcaecati! Ipsa ullam repudiandae molestiae
+            doloremque consequuntur!
+          </p>
+        </details>
+
+        <details>
+          <summary>XYZ</summary>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius iure
+            sit deserunt esse iusto sequi, in corrupti asperiores dolor, illum
+            neque quasi. Numquam, obcaecati! Ipsa ullam repudiandae molestiae
+            doloremque consequuntur!
+          </p>
+        </details>
+      </fieldset>
+    </form>
+  </body>
+</html>

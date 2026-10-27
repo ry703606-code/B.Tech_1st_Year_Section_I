@@ -1,0 +1,157 @@
+/* h1{
+    background-color: red;
+
+    background-image: url("");
+
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    background-position: center;
+
+    box-shadow: 2px 2px 10px black;
+
+    background-image: url("") url("") url("");
+} */
+
+/* h1{
+    background-color:red;
+    display: inline;
+    display: block;
+    display: inline-block;
+    height: 100px;
+}
+
+#b{
+    background-color: aqua;
+    /* display: none; */
+/* visibility: visible;
+    visibility: hidden;
+
+} */
+
+/* #c{
+    border: 2px solid red;
+    height: 40px;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    overflow: visible;
+    opacity: 0.6;
+} */
+/* 
+#b {
+  /* position: static; */
+/* position: relative; */
+/* position: absolute; */
+/* position: fixed; */
+/* position: sticky; */
+/* left: 100px;
+  top: 200px;
+  color: red;
+  z-index: 1; */
+/* } */
+
+/* #x {
+  position: sticky;
+  left: 100px;
+  top: 200px;
+  color: blue;
+  z-index: 2;
+} */
+/* 
+#div1 {
+  display: flex;
+  border: 3px solid red;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column;
+  flex-direction: column-reverse;
+  justify-content: center;
+
+  align-items: center;
+  height: 200px;
+
+  gap: 20px;
+  width: 300px;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 20px;
+  gap: 20px;
+
+  flex-flow: column;
+  flex-flow: row;
+}
+
+#div2 {
+  background-color: rgb(212, 6, 74);
+  align-self: center;
+  width: 10px;
+  flex-grow: 1;
+}
+
+#div3 {
+  background-color: rgb(200, 117, 8);
+  width: 10px;
+  flex-grow: 1;
+}
+
+#div4 {
+  background-color: rgb(188, 191, 7);
+  width: 10px;
+}
+
+#div5 {
+  background-color: rgb(50, 154, 154);
+  width: 10px;
+}
+
+#div6 {
+  background-color: rgb(1, 89, 121);
+  width: 10px;
+}
+
+#div7 {
+  background-color: rgb(206, 14, 123);
+  width: 10px;
+} */
+
+/* #i{
+    display: flex;
+    background-color: aquamarine;
+    height: 300px;
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+} */
+
+*{
+    background-color: rgb(47, 39, 39);
+}
+
+
+h1{
+    display: flex;
+    color: blue;
+    justify-content: center;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    flex-wrap: wrap;
+    justify-self: center;
+    row-gap: 10px;
+    column-gap: 10px;
+}
+
+.items{
+    height: 70px;
+    width: 70px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
