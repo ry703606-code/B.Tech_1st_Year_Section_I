@@ -1,0 +1,43 @@
+// OPerator
+// Variable
+// Nesting
+// Mixin
+
+
+@mixin my-mix{
+$my-color: rgb(0, 255, 38);
+    color: $my-color;
+    background-color: blue;
+}
+
+@function my-func($a, $b){
+    @return $a + $b;
+}
+
+#para{
+    // $my-color: rgb(0, 255, 38);
+    // color: $my-color;
+    // background-color: blue;
+    // font-size: 20px;
+    // font-size: 10px + 10px;
+    @include my-mix;
+}
+
+#main{
+    p{
+        // color: red;
+        // $my-color: rgb(0, 255, 38);
+        //     color: $my-color;
+        //     background-color: blue;
+        @include my-mix;
+    }
+
+    h1{
+        // color: green;
+        // $my-color: rgb(0, 255, 38);
+        //     color: $my-color;
+        //     background-color: blue;
+        @include my-mix;
+        font-size: my-func(10px, 10px);
+    }
+}
